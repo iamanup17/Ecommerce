@@ -1,10 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Navigate, NavLink } from 'react-router-dom';
 
 const Header = () => {
   return (
     <header>
-      <div className="logo"> iNOX-PANDA</div>
+      <div className="logo">
+        {' '}
+        <Link to="/"> iNOX-PANDA </Link>{' '}
+      </div>
+
       <div className="nav-links">
         <span className="list">
           <Link to="/">Home</Link>

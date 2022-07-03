@@ -6,7 +6,7 @@
 
 a {
   text-decoration: none !important;
-  color: rgb(213, 215, 216) !important;
+  color: rgb(213, 215, 216);
 }
 .wrapper {
   width: 100%;
@@ -82,12 +82,19 @@ header {
     rgba(0, 36, 33, 1) 165%
   );
 }
-header .logo {
-  text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
-    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
-    0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
-    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
-    0 20px 20px rgba(0, 0, 0, 0.15), 40px 40px 19px rgba(48, 39, 158, 0.29);
+header .logo,
+footer .logo {
+  a {
+    font-size: 1.3rem;
+    letter-spacing: 3px;
+    color: rgb(31, 240, 255);
+    text-shadow: 0 1px 0 #016e9c, 0 2px 0 #3adfe4, 0 3px 0 rgb(44, 117, 136),
+      0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1),
+      0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3),
+      0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25),
+      0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15),
+      40px 40px 19px rgba(48, 39, 158, 0.29);
+  }
 }
 
 header span.list {

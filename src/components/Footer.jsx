@@ -6,7 +6,9 @@ const Footer = () => {
     <>
       <footer className="foot">
         <section className="left">
-          <span className="footer-logo">iNOX-PANDA</span>
+          <span className="footer-logo logo">
+            <Link to="/"> iNOX-PANDA </Link>{' '}
+          </span>
           <p>001 Main Street, Times building , London , New York</p>
           <div className="social-links">
             <span>
